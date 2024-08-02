@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "ts-node-dev -r tsconfig-paths/register ./src/index.ts",
     "build": "tsc && tsc-alias",
-    "prod": "node ./src/index.ts"
+    "prod": "node ./api/index.ts"
   },
   "dependencies": {
     "amqplib": "^0.10.4",
